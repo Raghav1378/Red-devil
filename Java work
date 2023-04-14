@@ -1,0 +1,180 @@
+import java.util.Arrays;
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+//        System.out.println("hello world");
+//        //how to take input
+//        Scanner sc=new Scanner(System.in);
+//        System.out.println("enter the number 1");
+//        int a=sc.nextInt();
+//        System.out.println("enter the number 2");
+//    int b=sc.nextInt();
+//    int c=a+b;
+//        System.out.println(c);
+//types of operators in java
+        //Assignemnet operators means jo apke data ko value bata dege eg(=,<=)
+
+//        //break and continue
+//        int i;
+//        for(i=1;i<=100;i++){
+//            if(i==2){
+//                continue;
+//            }
+//            if (i==56){
+//                break;
+//            }
+//            System.out.println(i);
+//        }
+//Loop-1 for loop
+//        int i;
+//        for(i=1;i<=100;i++){
+//            System.out.println(i);
+//        }
+        //
+        //loop 2 while loop
+//        int i=1;
+//        while(i<=100){
+//            System.out.println (i);
+//        i++;
+//        }
+
+//loop 3-do while loop it is used to check 2 condioton if the condition 1 is satisfied then it will run and then satisfy the second condition
+//        int b=1;
+//        do {
+//            System.out.println(b);
+//            b++;
+//        }while(b<100);
+////error or not to run do while code
+//int c=10000;
+//do{
+//    System.out.println(c);
+// c++;
+//}
+//while(c<100);
+//using break and continue in for loop
+//for(int i=1;i<=100;i++){
+//    if(i==2){
+//        continue;
+//    }
+//    if(i==56){
+//        break;
+//    }
+//    System.out.println(i);
+//}
+//using forr loop to print odd numbers in java
+//        for(int i=1;i<=100;i++){
+//            System.out.println(i);
+//            i++;
+//        }
+//method 2
+//        for(int i=1;i<=100;i++){
+//            int j;
+//            j=(2*i-1);{
+//                System.out.println(j);
+//            }
+//        }
+// for even numbers
+//     method 2 for even numbers
+//        int i;
+//        for(i=1;i<=100;i++){
+//            int j;
+//            j=(2*i);
+//
+//                System.out.println(j);
+//
+//        }
+// decremneting for loop
+//        int i;
+//        for(i=10;i>=1;i--){
+//            System.out.println(i);
+//        }
+        //decremneting table;
+//        int i;
+//        for(i=10;i>=1;i--){
+//            int j;
+//            j=(2*i);
+//            System.out.println(j);
+//        }
+//practise loop question
+////sum of first n even numbers in while loops
+//int sum=0;
+//int n=3;
+//for(int i=0;i<3;i++){
+//    sum =sum+(2*i);
+//
+//}
+//        System.out.println("the sum is "+sum);
+        //to print a multiplication table of n number
+        Scanner sc=new Scanner(System.in);
+//        System.out.println("enter the number for which u want the table to be print ");
+//int a=sc.nextInt();
+//int i;
+//        for(i=1;i<=10;i++){
+//            int b=i*a;
+//            System.out.println(b);
+//        }
+
+//multiplication table but in reverse pattern
+//
+//        System.out.println("enter the number");
+//        int a=sc.nextInt();
+//        for(int i=10;i>=1;i--){
+//            System.out.println(a*i);
+//        }
+//to find a factorial of given a number
+      //  System.out.println("enter the number");
+//int n=5;
+//int i=1;
+//int factor=1;
+//while(i<=n){
+//    factor *=i;
+//    i++;
+//    System.out.println(factor);
+//
+//}
+//        System.out.println(factor);
+
+//ARRAY
+//  int []marks=new int[5];
+//  marks[0]=34;
+//        marks[1]=24;
+//        marks[2]=4;
+//        marks[3]=34;
+//        marks[4]=24;
+//        int i;
+//        for(i=0;i<=3;i++){
+//            System.out.println(marks[i]);
+//        }
+
+//int age[]=new int[5];
+//age[0]=32;
+//        age[1]=26;
+//        age[2]=34;
+//        age[3]=62;
+//        age[4]=432;
+//        for(int i=0;i<=4;i++){
+//            System.out.println(age[i]);
+//        }
+//int []marks={100,43,53,345,34};
+//        System.out.println(marks[1]);t
+//
+//int marks[]={24,34,34,4};
+////int i;
+////for(i=0;i<=3;i++){
+////    System.out.println(marks[i]);
+////}
+//        System.out.println(marks.length);
+//        System.out.println(Arrays.stream(marks).max());
+//        System.out.println(Arrays.stream(marks).count());
+
+//String [] students={"raghav","panda","helo"};
+//        System.out.println(students[1]);
+
+
+
+
+
+
+    }
+}
