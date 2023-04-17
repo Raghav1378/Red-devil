@@ -106,7 +106,7 @@ public class Main {
 //}
 //        System.out.println("the sum is "+sum);
         //to print a multiplication table of n number
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 //        System.out.println("enter the number for which u want the table to be print ");
 //int a=sc.nextInt();
 //int i;
@@ -123,7 +123,7 @@ public class Main {
 //            System.out.println(a*i);
 //        }
 //to find a factorial of given a number
-      //  System.out.println("enter the number");
+        //  System.out.println("enter the number");
 //int n=5;
 //int i=1;
 //int factor=1;
@@ -171,7 +171,45 @@ public class Main {
 //String [] students={"raghav","panda","helo"};
 //        System.out.println(students[1]);
 
+//make a multiplication table ;
+//        System.out.println("enter the number");
+//        int a=sc.nextInt();
+//        System.out.println("enter the range");
+//        int b= sc.nextInt();
+//        for(int i=1;i<=b;i++){
+//            System.out.println(a*i);
+//        }
+//using array to print the sum of given numbers
+//int arr[]={12,24,354,323,32};
+//int sum=0;
+//for(int i=0;i<=4;i++){
+//    sum=sum+arr[i];
+//}
+//        System.out.println(sum);
+//to print the array in reverse order
+//int a[]={1,3,4,65,76};
+//for(int i=4;i>=0;i--){
+//    System.out.println(a[i]);
+//}
+        //for each loop in java
+//int marks[]={424,34,445,34,3};
+//for(int element :marks){
+//    System.out.println(element);
+//}
+//int [] number={343,43,4,34,34,34};
+//        for(int elements : number);
+//int []a={32,43,43,4534,343,3,3,23};
+//        System.out.println(a.length);
+//        for(int i=0;i<=7;i++){ this version is not good than for each loop as you have to count the number of options in the array
+//            System.out.println(a[i]);
+//        }
+//
+//        int []a={4,53,4,23,42,53,544,33,2,343};
+//        for( int element :a){
+//            System.out.println(element);
+//        }
 
+//multidimentisonal array
 
 
 
