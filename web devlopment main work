@@ -1,23 +1,38 @@
-<style> 
+<!DOCTYPE html>
+<head>
+ <style> 
+h1{
+   font-size: large;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: aquamarine;
+   background-color: black;
+  
+}
 p{
 font:300;
 font-family: sans-serif;
 font-size: larger;
 color: indianred;}
 </style>
+</head>
+<body>
+<p>
+   if we add the data in body and the head it will be easy for the code
+</p>
+   <h1 >
 
-
-<h1 style="color: orange;font-size: x-large;font-family:sans-serif;text-align: center;background-color: aqua;">
    Panda' Challenge for wed, august 4th
+
 </h1>
-<p style=" ">
+<p>
    learn about the basics of the web development we convert plane text into pargraph
    for eg in this case we acn see that even add a space in the code but still it will appear in the same line
 </p>
-<p style="" >
+<p>
    panda is the cutest animal , to add the diffrent line in the code we will use diffrent para code      
 
 </p>
  <p>
-ll this data is provided and availabel on my <a href="https://github.com/Raghav1378/Red-devil/blob/main/web%20devlopment%20main%20work">github</a>
+    this data is provided and availabel on my <a href="https://github.com/Raghav1378/Red-devil/blob/main/web%20devlopment%20main%20work">github</a>
  </p>
+</body>
