@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="preview.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2 Page</title>
+  </head> 
+  <body>
+    <p id="img">
+      This is the second page and this page will be containing the info about
+      the lord Ram.
+      Here is the image of lord Ram.
+      
+  </p>
+  <p><img src="HD-wallpaper-jay-shri-ram-golden-art-work-lord-god-bhakti.jpg" alt=""></p>
+  <p id="hello">To acess the home page again click <a href="jai prabhu shree ram.html">home</a></p>
+  </body>
+</html>
