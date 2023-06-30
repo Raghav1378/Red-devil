@@ -1,38 +1,82 @@
 <!DOCTYPE html>
-<head>
- <style> 
-h1{
-   font-size: large;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   color: aquamarine;
-   background-color: black;
-  
-}
-p{
-font:300;
-font-family: sans-serif;
-font-size: larger;
-color: indianred;}
-</style>
-</head>
-<body>
-<p>
-   if we add the data in body and the head it will be easy for the code
-</p>
-   <h1 >
+<html>
+  <head >
+    <meta charset="UTF-8">
+    <title>My daily work</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <p>
+      learn about the basics of the web development we convert plane text into
+      pargraph for eg in this case we acn see that even add a space in the code
+      but still it will appear in the same line
+    </p>
+    <p>
+      To edit a particuclar title in the code we will use (id) tag by using in
+      the arrow box.
+    </p>
+    <p>if we add the data in body and the head it will be easy for the code</p>
 
-   Panda' Challenge for wed, august 4th
+    <h1>Panda' Challenge for wed, august 4th</h1>
 
-</h1>
-<p>
-   learn about the basics of the web development we convert plane text into pargraph
-   for eg in this case we acn see that even add a space in the code but still it will appear in the same line
-</p>
-<p>
-   panda is the cutest animal , to add the diffrent line in the code we will use diffrent para code      
+    <p>
+      panda is the cutest animal , to add the diffrent line in the code we will
+      use diffrent para code
+    </p>
 
-</p>
- <p>
-    this data is provided and availabel on my <a href="https://github.com/Raghav1378/Red-devil/blob/main/web%20devlopment%20main%20work">github</a>
- </p>
-</body>
+    <p>
+      this data is provided and availabel on my
+      <a
+        href="https://github.com/Raghav1378/Red-devil/blob/main/web%20devlopment%20main%20work"
+        >github</a
+      >
+    </p>
+    <p id="panda">
+      to edit a particuclar id in the code we will use tag id to edit that code
+      while using # in the css. and now to inc font size
+    </p>
+    <p id="rgb">this is the eg of the code that we use with rgb code</p>
+    <p id="pixel">
+      pixel is the best unit for measuring the siza as it is uniform for
+      everyone or you can say it is device independent and pixel is absolute
+      unit. and to use pixel we will use 'px'word,
+    </p>
+    <p>
+      If we want to add custom style in the code we will use google font that it
+      can provide us the particular style.
+    </p>
+    <p id="og">
+      To use a google font we will copy the Url of the particular font and after
+      that we can use it to code by pasting in the head tag of the code
+      <a
+        href="https://fonts.google.com/specimen/Dancing+Script?preview.text=Whereas%20recognition%20of%20the%20inherent%20dignity&preview.text_type=custom&category=Display,Handwriting"
+        >style</a
+      >
+      and to use it in the code we will use it in the style tag by mention the
+      name of the font.
+    </p>
+    <p id="img">
+      now we will be adding some img in the code to add images in the code we
+      will use img tag to add images in the code and after that we can add
+      images by simply dropin the name of file in the code by dragging in the vs
+      code .and to add image we will type the name of image file in img src
+      section. and in img src we will using the name of the safe file. alt is
+      used when image if fail to load.
+      <img src="Acer_Wallpaper_04_3840x2400.jpg" alt="wallpaper" />
+    </p>
+    <p>
+      we can also change the shape of the image by using the border raidus
+      property. Which is mention in the pixel. To change the align we will use
+      it in body tag so as it will be treated as text
+    </p>
+    <p>to access the preview file<a href="preview.html">preview</a>
+    or it can be used to go to different section of file</p>
+
+  </body>
+</html>
