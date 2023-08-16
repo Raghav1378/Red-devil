@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head >
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>My daily work</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -9,9 +9,11 @@
       href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
       rel="stylesheet"
     />
-    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="preview.css" />
+    <link href="common.css" rel="stylesheet" />
   </head>
   <body>
+    <header id="Heading">My first site</header>
     <p>
       learn about the basics of the web development we convert plane text into
       pargraph for eg in this case we acn see that even add a space in the code
@@ -22,8 +24,6 @@
       the arrow box.
     </p>
     <p>if we add the data in body and the head it will be easy for the code</p>
-
-    <h1>Panda' Challenge for wed, august 4th</h1>
 
     <p>
       panda is the cutest animal , to add the diffrent line in the code we will
@@ -75,8 +75,27 @@
       property. Which is mention in the pixel. To change the align we will use
       it in body tag so as it will be treated as text
     </p>
-    <p>to access the preview file<a href="preview.html">preview</a>
-    or it can be used to go to different section of file</p>
-
+    <p>
+      to access the preview file<a href="preview.html">preview</a> or it can be
+      used to go to different section of file
+    </p>
+    <ol>
+      <li>apple</li>
+      <li>mango</li>
+      <li>banana</li>
+    </ol>
+    <p class="panda">
+      To use the class the we have to use . in the css and mention the name of
+      class given to it
+    </p>
+    <footer>Thanks for visting my site</footer>
+    <p>
+      To use or emphasis the specific word in the code we will use
+      <em class="highlight">for eg </em>is emphasised.
+    </p>
+    We can use
+    <span class="highlight">to </span>highlight the text but it is different from emphasis.
+    there is another method <strong class="highlight">it is  use to give</strong>bold text.
+  
   </body>
 </html>
