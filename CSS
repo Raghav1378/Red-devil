@@ -1,0 +1,76 @@
+body {
+  background-color:#DE5935;
+}
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 1px;
+}
+h1 {
+  font-size: large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color:#a53c4f;
+  background-color:#a53c4f;
+
+  border-radius: 5px;
+}
+p {
+  font: 30;
+  font-family: sans-serif;
+  font-size: larger;
+  color:hsl(180, 2%, 13%);
+  background-color: #edc967;
+  padding: 10px 20px;
+}
+a {
+  color: red;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0px;
+}
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+#panda {
+  text-align: center;
+  cursor: cell;
+  color:#DFBD69;
+  background-color:#ff00ff;
+
+}
+#pixel {
+  font-size: 29px;
+}
+#rgb {
+  color:#DFBD69;
+  background-color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#og {
+  font-family: "Dancing Script";
+}
+.Hero {
+  color: black;
+  font-style: italic;
+}
+#Heading{
+  color:orange;
+  text-shadow: 1px 5px;
+margin: 1%;
+border-radius: 43px;
+}
+li{
+  background-color: #DFBD69;
+  border-radius: 45px;
+  margin: 23px;
+  padding: 4px 4px;
+text-size-adjust: 79%;
+box-shadow: 5px 5px 8px  yellow;
+}
+.panda{
+  border-radius: 12px;
+  border-top: #a53c4f;
+  padding-left: 65px;
+}
