@@ -1,101 +1,195 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>My daily work</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="preview.css" />
-    <link href="common.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
   </head>
+  <link rel="stylesheet" href="Jai prabhu shree ram.css" />
   <body>
-    <header id="Heading">My first site</header>
+    <h1>This is the cute panda</h1>
+    <h2>This is the cute panda</h2>
+    <h3>This is the cute panda</h3>
+    <h4>This is the cute panda</h4>
+    <h5>This is the cute panda</h5>
+    <div id="panda">it is a container</div>
+    <ol>
+      <li>this is the step one</li>
+      <li>this is the step two</li>
+    </ol>
+    <ul>
+      <li>if u want to eat momos you can go there</li>
+      <li>if u want to eat pizza ypu can come here</li>
+    </ul>
     <p>
-      learn about the basics of the web development we convert plane text into
-      pargraph for eg in this case we acn see that even add a space in the code
-      but still it will appear in the same line
+      to add image in the container use
+      <img
+        src="PXL_20230729_130553763.jpg"
+        width="100"
+        height="100"
+        alt="Ja na lawde"
+      />
+    </p>
+    <div id="Og">It is a container element that contain the element</div>
+    <a
+      href="https://github.com/Raghav1378/Red-devil/blob/main/web%20devlopment%20main%20work"
+      >main</a
+    >
+    <p>Panda is cute</p>
+    <p>
+      panda is <br />
+      cute
     </p>
     <p>
-      To edit a particuclar title in the code we will use (id) tag by using in
-      the arrow box.
+      To add a new line in the code we will use <br />
+      br-tag
     </p>
-    <p>if we add the data in body and the head it will be easy for the code</p>
-
-    <p>
-      panda is the cutest animal , to add the diffrent line in the code we will
-      use diffrent para code
-    </p>
-
-    <p>
-      this data is provided and availabel on my
+    <div>
+      to open a link in new tab
       <a
         href="https://github.com/Raghav1378/Red-devil/blob/main/web%20devlopment%20main%20work"
-        >github</a
+        target="_blank"
+        >new</a
       >
+    </div>
+    <div id="panda">
+      to add new image we wil use and we can use img just copyin the image
+      address<img
+        src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTWW0ZhzIo8ExcV0le_rbf_fS0Wpeu4i9cYTPCMdSuEmS2EljD-1vclLhnMzbELlA94pOgs2xhA2Tl83KE"
+        alt="nhi aya toh teri galti "
+        height="140 px"
+        width="140 px"
+      />
+    </div>
+    <div>
+      to use horizontal line we will use
+      <hr />
+    </div>
+    <hr />
+    <div>
+      Yaar tera super star <br />
+      desi kalakar <br />
+    </div>
+    <div>
+      if we want to use the breaking lines method without usingg br-tag you can
+      use pre tag
+    </div>
+    <pre>
+      for eg 
+      in this is 
+      statement the pre tag 
+      is used which is use to 
+      give break and we can asee the 
+      it is written in same methods
+    </pre>
+    <pre>
+It is used to display 
+      the text as-it-is.
+    </pre>
+    f
+    <!-- Styke in line -->
+    <p style="color: red">
+      <mark> Kiye karam hai sathi meere kalam mere</mark> jit se ati na inhe
+      sharam hai
     </p>
-    <p id="panda">
-      to edit a particuclar id in the code we will use tag id to edit that code
-      while using # in the css. and now to inc font size
-    </p>
-    <p id="rgb">this is the eg of the code that we use with rgb code</p>
-    <p id="pixel">
-      pixel is the best unit for measuring the siza as it is uniform for
-      everyone or you can say it is device independent and pixel is absolute
-      unit. and to use pixel we will use 'px'word,
-    </p>
+    <div>
+      if we want to add specific color in the background and want to color a
+      specific part of we can use mark
+    </div>
+    <div>x<sup>2</sup>+y<sup>2</sup>=z<sup>3</sup></div>
     <p>
-      If we want to add custom style in the code we will use google font that it
-      can provide us the particular style.
+      a<sub>1</sub>+b<sub>2=z <sub>3</sub> </sub>
     </p>
-    <p id="og">
-      To use a google font we will copy the Url of the particular font and after
-      that we can use it to code by pasting in the head tag of the code
-      <a
-        href="https://fonts.google.com/specimen/Dancing+Script?preview.text=Whereas%20recognition%20of%20the%20inherent%20dignity&preview.text_type=custom&category=Display,Handwriting"
-        >style</a
-      >
-      and to use it in the code we will use it in the style tag by mention the
-      name of the font.
-    </p>
-    <p id="img">
-      now we will be adding some img in the code to add images in the code we
-      will use img tag to add images in the code and after that we can add
-      images by simply dropin the name of file in the code by dragging in the vs
-      code .and to add image we will type the name of image file in img src
-      section. and in img src we will using the name of the safe file. alt is
-      used when image if fail to load.
-      <img src="Acer_Wallpaper_04_3840x2400.jpg" alt="wallpaper" />
-    </p>
-    <p>
-      we can also change the shape of the image by using the border raidus
-      property. Which is mention in the pixel. To change the align we will use
-      it in body tag so as it will be treated as text
-    </p>
-    <p>
-      to access the preview file<a href="preview.html">preview</a> or it can be
-      used to go to different section of file
-    </p>
-    <ol>
-      <li>apple</li>
-      <li>mango</li>
-      <li>banana</li>
-    </ol>
-    <p class="panda">
-      To use the class the we have to use . in the css and mention the name of
-      class given to it
-    </p>
-    <footer>Thanks for visting my site</footer>
-    <p>
-      To use or emphasis the specific word in the code we will use
-      <em class="highlight">for eg </em>is emphasised.
-    </p>
-    We can use
-    <span class="highlight">to </span>highlight the text but it is different from emphasis.
-    there is another method <strong class="highlight">it is  use to give</strong>bold text.
-  
+    <div>
+      quotation tag and citation tag 1-blockquote <br />
+      2] q-tag <br />
+      3]cite-tag <br />
+      4]address-tag <br />
+      5]abbrivation <br />
+      6]how to add favicon. favicon means jo chota sa logo hota hai site k upar
+      7]Create a site like wiki-pidea which willl have discription of maharana
+      pratap, his image,(biography,achivements,sources,)in heading.and at bottom
+      we will use the bottom sources links that we use to get informatpion.
+      8]Table in html jisme alg alg font ho
+    </div>
+    <div><u>you can use under line tag to underline the element</u></div>
+    <ul>
+      <li>panda</li>
+      <li>momos</li>
+      <li>chinse</li>
+      <li>gadha</li>
+      <ol>
+        <li>alu</li>
+        <li>bhalu</li>
+      </ol>
+    </ul>
+    <div>
+      to make table we will use table-tag and to add row in that we will use
+      tr-tag and to add content we will se td tag.
+    </div>
+    <table>
+      <caption>
+        Birthday
+      </caption>
+      <thead>
+        <tr>
+          <td>date</td>
+          <td>birthday</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>11march</td>
+          <td>raghav ji</td>
+        </tr>
+        <tr>
+          <td>16 august</td>
+          <td>panda bhalu</td>
+        </tr>
+      </tbody>
+      <tfoot></tfoot>
+    </table>
+    <p>to merge the line in the table tag we will use bordercollapse feature</p>
+    <table>
+      <caption>
+        this is my first tabel
+      </caption>
+      <thead>
+        <th>month</th>
+        <th>salary</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>jan</td>
+          <td>100$</td>
+        </tr>
+        <tr>
+          <td>feb</td>
+          <td>400$</td>
+        </tr>
+        <tr>
+          <td>total</td>
+          <td>500$</td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- This is the form that i make on my own -->
+    
+   <h1>Welcome to the login page</h1>
+   <form action="https://github.com/Raghav1378/Red-devil/blob/main/web%20devlopment%20main%20work" >
+    <label for="username">Username:</label>
+    <input type="text" name="Username">
+    <br>
+    <br>
+  <label for="Password">Password:</label>
+  <input type="password" name="Password">
+  <input type="submit" value="submit">
+  </form>
+
+
+
+
+
+
   </body>
 </html>
