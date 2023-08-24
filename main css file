@@ -1,56 +1,29 @@
-
-body{
-  text-align: center;
-  background-color: rgb(45,54, 85);
-  margin:54px;
+#Og{
+    color: red;
 }
-img{
-  width: 200px;
-  height: 200px;
-  border-radius: 100px;  
+pre{
+    color: red;
 }
-
-h1 {
-    font-size: large;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    color: aquamarine;
-    background-color: black;
-  }
-  p {
-    font: 300;
-    font-family: sans-serif;
-    font-size: larger;
-    color: green;
-    background-color: aquamarine;
-  }
-  a {
-
-    color: blue;
-    text-transform: uppercase;
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: underline;
-    cursor: crosshair;
-  }
- #panda{
-  text-align: center;
-  cursor: cell;
-  color: aquamarine;
-  background-color: black;
-  font-weight: bold;
-  font-size: xx-large;
- }
- #pixel{
-  font-size: 29px;
- }
- #rgb
-{
-  color:rgb(56, 65, 69);
-  background-color: aliceblue;
-  font-family: Arial, Helvetica, sans-serif;
+#panda{
+    text-transform: capitalize;
 }
-#og{
-  font-family: 'Dancing Script';
+p{
+    background-color:rgb(253, 215, 0);
+    text-shadow: 10px 10pxs;
+}
+table, tr,td,th{
+    border: 1px solid red;
+    border-collapse:collapse ;
+}
+caption{
+    border: 1px solid orange;
+    padding: 1px;
+ caption-side: top;
+border-collapse: collapse ;
+}
+th{
+   font-weight: bold; 
+}
+td{
+    text-align: center;
 }
