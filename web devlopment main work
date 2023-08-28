@@ -4,9 +4,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+  <title>Glory to Shree Ram</title>
+  <link rel="website icon" type="jpg" href="HD-wallpaper-jay-shri-ram-golden-art-work-lord-god-bhakti.jpg">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
 <link rel="stylesheet" href="Jai prabhu shree ram.css" />
+<a href="#login page">To acess login page</a>
 
 <body>
   <h1>This is the cute panda</h1>
@@ -114,7 +121,7 @@ It is used to display
     to make table we will use table-tag and to add row in that we will use
     tr-tag and to add content we will se td tag.
   </div>
-  <table>
+  <!-- <table>
     <caption>
       Birthday
     </caption>
@@ -136,7 +143,7 @@ It is used to display
     </tbody>
     <tfoot></tfoot>
   </table>
-   <p>to merge the line in the table tag we will use bordercollapse feature</p>
+  <p>to merge the line in the table tag we will use bordercollapse feature</p>
   <table>
     <caption>
       this is my first tabelf
@@ -159,9 +166,9 @@ It is used to display
         <td>500$</td>
       </tr>
     </tbody>
-  </table> 
- This is the form that i make on my own 
- <h1>Welcome to the login page</h1>
+  </table> -->
+  <!-- This is the form that i make on my own
+  <h1>Welcome to the login page</h1>
   <form action="https://github.com/Raghav1378/Red-devil/blob/main/web%20devlopment%20main%20work">
     <label for="Username">Username:</label>
     <input type="text" name="Username">
@@ -170,11 +177,11 @@ It is used to display
     <label for="Password">Password:</label>
     <input type="password" name="Password"><br>
     <input type="submit" value="submit" style="text-align: center;">
-  </form> 
+  </form> -->
 
   <!-- Creating a form using a table -->
-  <!-- <h1>Welocme to the login page but with tabel</h1>
-  <table>
+  <h1>Welocme to the login page but with tabel</h1>
+  <table id="login page">
     <form action="https://github.com/Raghav1378/Red-devil/blob/main/web%20devlopment%20main%20work">
       <tr>
         <td><label for="Username">Username</label>
@@ -183,11 +190,12 @@ It is used to display
       <tr>
         <td><label for="password">password</label>
         <td><input type="password" id="password"></td>
-      </tr> -->
+      </tr>
 
-  <!-- </table>
+  </table>
   <input type="submit" value="submit"><br>
-  </form> --
+  </form>
+  <!--  --
   <table>
     <tr>
       <td>Month </td>
@@ -204,7 +212,7 @@ It is used to display
     <tr></tr>
     <tr></tr>
   </table> -->
-   <!-- <table>
+  <!-- <table>
     <tr>
       <td>month</td>
       <td>amount</td>
@@ -227,7 +235,7 @@ It is used to display
     </tr>
   </table>   -->
   <!-- you can use ctrl+alt+h to run the site on vs code only -->
-<!-- <table>
+  <!-- <table>
   <tr>
     <td colspan="2">month</td>
   </tr>
@@ -237,19 +245,14 @@ It is used to display
   </tr>
   <td colspan="2">panda</td>
 </table>  -->
- <table>
+  <!-- <table>
   <tr>
     <td colspan="2" >abcd</td>
     <td >abcd</td>
   </tr>
   <tr>
-    <td>abcd</td>
-    <td>abcd</td>
-    <td>abcd</td>
-  </tr>
-  <tr>
-    <td>abcd</td>
-    <td>abcd</td>
+    <td colspan="2" rowspan="2">abc</td>
+    
     <td>abcd</td>
   </tr>
   <tr>
@@ -262,6 +265,108 @@ It is used to display
     <td>abcd</td>
     <td>abcd</td>
   </tr>
- </table>
+  <tr>
+    <td>abcd</td>
+    <td>abcd</td>
+    <td>abcd</td>
+  </tr>
+ </table> -->
+  <!-- <table>
+  <caption>my rowspan table</caption>
+  <tr>
+    <td rowspan="2" colspan="2">panda</td>
+    <td colspan="2">1</td>
+    <td rowspan="2">2</td>
+  </tr>
+  <tr>
+    <td>panda</td>
+    <td>1</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>panda</td>
+    <td>1</td>
+    <td>2</td>
+  </tr>
+ </table> -->
+  <!-- 
+  colspan is horizontal while rowspan is vertical
+
+- -->
+  <!-- <table>
+    <colgroup>
+    <col  style="color: blanchedalmond; background-color: orange;"  span="1"
+    >
+<col span="1" style="background-color: red;">
+  <col span="1" style="background-color: yellowgreen;"></colgroup>
+    <tr>
+      <td rowspan="2" > STAte of health</td>
+      <td colspan="2">fasting value</td>
+      
+      <td rowspan="2">after eating
+      </td>
+    </tr>
+    <tr>
+
+
+      <td>Mini</td>
+      <td>Max</td>
+      <td colspan="2">2 hr after eating
+      </td>
+    </tr>
+    <tr>
+
+      <td>health</td>
+      <td>70</td>
+      <td>100</td>
+      <td>less than 140
+      </td>
+    </tr>
+    <tr>
+      <td>Pre-diabatic</td>
+      <td>101</td>
+      <td>126</td>
+      <td>140-200
+      </td>
+    </tr>
+    <tr>
+      <td>Diabetes</td>
+      <td>More tahn 126</td>
+      <td>
+        more than 200
+      </td>
+    </tr>
+  </table> -->
+  <!-- anchor tag uses and its types -->
+  <!-- <a href="https://www.facebook.com" target="_blank">Click here</a>
+  <br>
+  <a href="tel:6969696969">Call me</a>
+  <br>
+<a href="mailto:raghavparacommando@gmail.com "target="_blank">Mail</a> -->
+  <div style="color: orange;background-color: black; display: inline;">
+    cute Panda
+  </div>
+  <div>
+    <span style="color: blue;font-style: italic;">this is the coldest</span> Panda.
+  </div>
+  <!-- If we use block display in the span tag than it will become div tags -->
+  <span style="color: orange;display: block;">CUTepanda</span>
+  <span style="color: gold;">2span</span>
+  <!-- Semantic tags=it provide meaning to data/Tags which has some significance  -->
+  <!-- for eg form,section,article,aside,figure,figcaption,header,footer -->
+  <aside style="display:flex ;">
+    This is the aside tag which is used to put side info
+  </aside>
+  <!-- hw)Difference b/w header and h1 -->
+<article>
+  <h2 style="text-align: center;font-size: large;">This is the first news </h2>
+<p style="color: aliceblue;background-color: black;">THis is the news</p>
+<p style="background-color: inherit;">THis is the news</p>
+<p>THis is the news</p>
+</article>
+<aside>
+<p>CUTepanda</p>
+</aside>
 </body>
+
 </html>
