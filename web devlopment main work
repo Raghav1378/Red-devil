@@ -343,22 +343,22 @@ It is used to display
   <a href="tel:6969696969">Call me</a>
   <br>
 <a href="mailto:raghavparacommando@gmail.com "target="_blank">Mail</a> -->
-  <div style="color: orange;background-color: black; display: inline;">
+  <!-- <div style="color: orange;background-color: black; display: inline;">
     cute Panda
   </div>
   <div>
     <span style="color: blue;font-style: italic;">this is the coldest</span> Panda.
   </div>
-  <!-- If we use block display in the span tag than it will become div tags -->
-  <span style="color: orange;display: block;">CUTepanda</span>
-  <span style="color: gold;">2span</span>
+  If we use block display in the span tag than it will become div tags -->
+  <!-- <span style="color: orange;display: block;">CUTepanda</span>
+  <span style="color: gold;">2span</span> -->
   <!-- Semantic tags=it provide meaning to data/Tags which has some significance  -->
   <!-- for eg form,section,article,aside,figure,figcaption,header,footer -->
-  <aside style="display:flex ;">
+  <!-- <aside style="display:flex ;">
     This is the aside tag which is used to put side info
-  </aside>
+  </aside> -->
   <!-- hw)Difference b/w header and h1 -->
-<article>
+<!-- <article>
   <h2 style="text-align: center;font-size: large;">This is the first news </h2>
 <p style="color: aliceblue;background-color: black;">THis is the news</p>
 <p style="background-color: inherit;">THis is the news</p>
@@ -366,7 +366,8 @@ It is used to display
 </article>
 <aside>
 <p>CUTepanda</p>
-</aside>
+</aside>  -->
+
 </body>
 
 </html>
